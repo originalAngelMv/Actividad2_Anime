@@ -1,9 +1,17 @@
 
 .Horizontal {
     display: flex;
-    margin-right: 10%; /* Añade un pequeño espacio entre los elementos */
 }
 
 .Horizontal li{
     margin-right:10%;
+}
+
+img {
+    width: 200px; /* Ajusta el ancho a 300 píxeles */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+}
+
+figure{
+    text-align: center;
 }
