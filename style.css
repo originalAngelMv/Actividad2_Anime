@@ -1,3 +1,9 @@
+aside {
+    width: 250px; 
+    float: right; 
+    background-color: #16d7ad;
+    padding: 15px 15px 500px 50px; 
+}
 
 .Horizontal {
     display: flex;
@@ -8,8 +14,8 @@
 }
 
 img {
-    width: 200px; /* Ajusta el ancho a 300 píxeles */
-    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    width: 200px;
+    height: auto; 
 }
 
 figure{
@@ -19,3 +25,26 @@ figure{
 body{
     background-color: rgb(255, 245, 49);
 }
+
+
+main{
+    padding-right: 10%;
+    margin-right: 300px;
+}
+
+.pikachu{
+    float: right; 
+}
+
+.Nuevo{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
