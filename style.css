@@ -23,7 +23,9 @@ figure{
 }
 
 body{
-    background-color: rgb(255, 245, 49);
+    background-color: rgb(34, 34, 29);
+
+
 }
 
 
@@ -40,11 +42,74 @@ main{
     text-align: center;
 }
 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5% ;
+    padding-right: 5%;
+    font-weight: bold;
+}
 
+h1{
+    color: white;
+    font-size: 45px;
+}
 
+ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
 
+a{
+    color: white;
+    text-decoration: none;
+}
 
+a:hover{
+    color: blueviolet;
+}
 
+h2{
+    text-align: center;
+}
 
+.footer{
+    text-align: center;
+}
 
+.text {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+
+.icon-elem {
+    list-style: none;
+
+}
+
+.icon {
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.icon:hover{
+    transform: translateY(-10px);
+}
 
