@@ -26,6 +26,7 @@ body{
     background-color: rgb(34, 34, 29);
 
 
+
 }
 
 
@@ -112,4 +113,36 @@ h2{
 .icon:hover{
     transform: translateY(-10px);
 }
+
+
+aside {
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+
+
+aside figure {
+    text-align: center;
+    margin-top: 20px;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+aside figcaption.Nuevo {
+    margin-top: 10px;
+    font-style: italic;
+    text-align: center;
+    color: #ff4500;
+}
+
 
